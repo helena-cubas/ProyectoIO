@@ -14,7 +14,9 @@ using namespace std;
 /*VARIABLES*/
 double tiempo_total = 0;
 double largo_timer = 0;
-bool A_libre = true;
+bool A_libre = true;double A_recibe = 0;
+double A_libera = 0;
+double B_recibe = 0;
 bool B_libre = true;
 
 int ACK_esperado_por_B = 0;	//es un identificador
